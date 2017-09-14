@@ -49,3 +49,11 @@ export default class Inventory extends React.Component {
         )
     }
 }
+
+Inventory.propTypes = {
+    fishes: React.PropTypes.object.isRequired,
+    addFish: React.PropTypes.func.isRequired,
+    loadSamples: React.PropTypes.func.isRequired,
+    removeFish: React.PropTypes.func.isRequired,
+    updateFish: React.PropTypes.func.isRequired,
+}
