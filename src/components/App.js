@@ -135,6 +135,7 @@ export default class App extends React.Component {
                     removeFish={this.removeFish}
                     fishes={this.state.fishes}
                     updateFish={this.updateFish}
+                    storeId={this.props.params.storeId}
                 />
             </div>
         )
